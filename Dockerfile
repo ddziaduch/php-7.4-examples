@@ -1,2 +1,2 @@
-FROM php:7.4.0RC5-cli
+FROM php:7.4.0
 RUN docker-php-ext-install -j$(nproc) bcmath
